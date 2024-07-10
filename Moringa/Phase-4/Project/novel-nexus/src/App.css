@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.login-button{
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+}
+
+.login-button:hover{
+  background-color: rgb(58, 45, 22);
+}

@@ -1,0 +1,43 @@
+{
+    "books": [
+      {
+        "title": "The Great Gatsby",
+        "genre": "Fiction",
+        "author": {
+          "name": "F. Scott Fitzgerald"
+        },
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "rating": 5,
+            "comment": "A fascinating glimpse into the Jazz Age."
+          },
+          {
+            "reviewer": "Jane Smith",
+            "rating": 4,
+            "comment": "Beautifully written but a bit slow in the middle."
+          }
+        ]
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "genre": "Fiction",
+        "author": {
+          "name": "Harper Lee"
+        },
+        "reviews": [
+          {
+            "reviewer": "Alice Johnson",
+            "rating": 5,
+            "comment": "A powerful and moving story about justice and inequality."
+          },
+          {
+            "reviewer": "Bob Brown",
+            "rating": 4,
+            "comment": "An essential read for everyone."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.2.1, pluggy-1.5.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /root/Moringa/Phase-3/Code-Challenges/WK1
+collecting ... collected 0 items / 3 errors
+
+==================================== ERRORS ====================================
+_ ERROR collecting python-non-sqlalchemy-code-challenge-articles/lib/testing/article_test.py _
+ImportError while importing test module '/root/Moringa/Phase-3/Code-Challenges/WK1/python-non-sqlalchemy-code-challenge-articles/lib/testing/article_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+python-non-sqlalchemy-code-challenge-articles/lib/testing/article_test.py:2: in <module>
+    from classes.many_to_many import Article, Author, Magazine
+E   ModuleNotFoundError: No module named 'classes'
+_ ERROR collecting python-non-sqlalchemy-code-challenge-articles/lib/testing/author_test.py _
+ImportError while importing test module '/root/Moringa/Phase-3/Code-Challenges/WK1/python-non-sqlalchemy-code-challenge-articles/lib/testing/author_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+python-non-sqlalchemy-code-challenge-articles/lib/testing/author_test.py:2: in <module>
+    from classes.many_to_many import Article, Author, Magazine
+E   ModuleNotFoundError: No module named 'classes'
+_ ERROR collecting python-non-sqlalchemy-code-challenge-articles/lib/testing/magazine_test.py _
+ImportError while importing test module '/root/Moringa/Phase-3/Code-Challenges/WK1/python-non-sqlalchemy-code-challenge-articles/lib/testing/magazine_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+python-non-sqlalchemy-code-challenge-articles/lib/testing/magazine_test.py:2: in <module>
+    from classes.many_to_many import Article, Author, Magazine
+E   ModuleNotFoundError: No module named 'classes'
+=========================== short test summary info ============================
+ERROR python-non-sqlalchemy-code-challenge-articles/lib/testing/article_test.py
+ERROR python-non-sqlalchemy-code-challenge-articles/lib/testing/author_test.py
+ERROR python-non-sqlalchemy-code-challenge-articles/lib/testing/magazine_test.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+============================== 3 errors in 0.07s ===============================
